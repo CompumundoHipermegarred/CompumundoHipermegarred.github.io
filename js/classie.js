@@ -1,37 +1,35 @@
 /*!
- * classie - class helper functions
- * from bonzo https://github.com/ded/bonzo
+ * Classie - Funciones tipo helper
+ * Proveniente de Bonzo en https://github.com/ded/bonzo
  * 
- * classie.has( elem, 'my-class' ) -> true/false
- * classie.add( elem, 'my-new-class' )
- * classie.remove( elem, 'my-unwanted-class' )
- * classie.toggle( elem, 'my-class' )
- */
+ * classie.has(elem, 'my-class') -> true/false
+ * classie.add(elem, 'my-new-class')
+ * classie.remove(elem, 'my-unwanted-class')
+ * classie.toggle(elem, 'my-class')
+*/
 
-/*jshint browser: true, strict: true, undef: true */
+/*jshint del navegador: true, strict: true, undef: true */
 /*global define: false */
 
 (function(window){
   'use strict';
 
-  // class helper functions from bonzo https://github.com/ded/bonzo
-
+  //Funciones de apoyo de Bonzo en https://github.com/ded/bonzo
   function classReg(className){
     return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
   }
 
-  // classList support for class management
-  // altho to be fair, the api sucks because it won't accept multiple classes at once
+  //Soporte de classList para gestión de clases, aunque para ser justos, la API no vale la pena porque no se aceptan múltiples clases a la vez
   var hasClass, addClass, removeClass;
   if('classList' in document.documentElement){
     hasClass = function(elem, c){
-      return elem.classList.contains( c );
+      return elem.classList.contains(c);
     };
     addClass = function(elem, c){
       elem.classList.add(c);
     };
     removeClass = function(elem, c){
-      elem.classList.remove( c );
+      elem.classList.remove(c);
     };
   }else{
     hasClass = function(elem, c){
@@ -53,25 +51,22 @@
   }
 
   var classie = {
-    // full names
+    //Nombres completos
     hasClass: hasClass,
     addClass: addClass,
     removeClass: removeClass,
     toggleClass: toggleClass,
-    // short names
+    //Nombres cortos
     has: hasClass,
     add: addClass,
     remove: removeClass,
     toggle: toggleClass
   };
 
-  // transport
+  //Para transporte
   if(typeof define === 'function' && define.amd){
-    // AMD
-    define(classie);
+    define(classie); //Para AMD
   }else{
-    // browser global
-    window.classie = classie;
+    window.classie = classie; //Para navegador global
   }
-
 })(window);
