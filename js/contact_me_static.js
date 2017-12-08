@@ -1,23 +1,23 @@
-$(function() {
+$(function(){
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
-            // additional error messages or events
+        submitError: function($form, event, errors){
+            //Mensajes o eventos de error adicionales
         },
 
-        filter: function() {
+        filter: function(){
             return $(this).is(":visible");
         },
     });
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+    $("a[data-toggle=\"tab\"]").click(function(e){
         e.preventDefault();
         $(this).tab("show");
     });
 });
 
-/*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+//Al hacer clic en Full hide o en cajas de éxito/error
+$('#name').focus(function(){
     $('#success').html('');
 });
