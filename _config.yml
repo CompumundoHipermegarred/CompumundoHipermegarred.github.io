@@ -1,63 +1,63 @@
-# Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+#Configuración del sitio
+title: Compumundo Hipermegarred
+email: mamurciac@unal.edu.co
+url: https://compumundohipermegarred.github.io
+description: "En esta página podrás encontrar notas detalladas de clase de las materias de ingeniería de sistemas. Este material consiste en una recopilación de apuntes de distintas referencias bibliográficas, tanto de libros como de cursos en línea y algunas páginas web."
+keywords: "Cálculo, Datos, Información, Ingeniería, Programación, Sistemas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
-# Google webmaster tools
-google_verify:
+#Verificación de la página en el buscador de Google (Con Google Webmaster Tools)
+#google_verify:
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+#Verificación de la página en el buscador de Bing. Enlace de apoyo: https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+#Formulario de Contacto:
+#  - static: Se valida el envió del mensaje de correo electrónico con Formspree.io
+#  - disqus: Se reemplaza el formulario de contacto por el hilo de Disqus
+#Para mantener el formulario de contacto de PHP predeterminado, se comenta la próxima línea
 contact: static
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
+#Si se utiliza disqus, es necesario el nombre breve de la página en disqus
+#https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: myshortname
 
-# Color settings (hex-codes without the leading hash-tag)
+#Ajustes de Color (En codificación hexadecimal sin la etiqueta de hashtag)
 color:
   primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
-# Footer settings
+#Ajustes de pie de página
 footer:
   copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+#Nombres de usuario para Redes Sociales (Hay varias disponibles como: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  #- title: twitter
+    #url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/Compumundo-Hipermegarred-894115067409624/
+  #- title: stack-overflow
+    #url: http://stackoverflow.com/questions/tagged/jekyll
+  #- title: bitbucket
+    #url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/CompumundoHipermegarred/CompumundoHipermegarred.github.io
 
-# Postal address (add as many lines as necessary)
+#Dirección Postal (Se pueden añadir cuantas líneas sean necesarias)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Universidad Nacional
+  - line: Bogotá D.C., Colombia
 
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+#Contenido de los créditos
+credits: 'La plantilla (Freelancer de Jekyll) sobre la cual se construyó la página es Freelancer es de uso libre, y las notas de clase son tomadas a partir de apuntes de distintas referencias bibliográficas, tanto de libros como de cursos en línea y algunas páginas web. En la bibliografía de cada asignatura se ilustran las referencias citadas en detalle.'
 
-# Build settings
+#Ajustes de compilación
 markdown: kramdown
 permalink: pretty
