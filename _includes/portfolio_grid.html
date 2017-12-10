@@ -7,18 +7,17 @@
             </div>
         </div>
         <div class="row">
-            {% for post in site.posts %}
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="/temas/computacion_visual/index.html" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
                         </div>
-                        <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                    </a>
-                </div>
-            {% endfor %}
+                    </div>
+                    <img src="img/portfolio/cabin.png" class="img-responsive" alt="Notas de Computación Visual">
+                    <h3 align="center">Computación Visual</h3>
+                </a>
+            </div>
         </div>
     </div>
 </section>
