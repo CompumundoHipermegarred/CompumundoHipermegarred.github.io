@@ -5,7 +5,8 @@ url: https://compumundohipermegarred.github.io
 description: "En esta página podrás encontrar notas detalladas de clase de las materias de ingeniería de sistemas. Este material consiste en una recopilación de apuntes de distintas referencias bibliográficas, tanto de libros como de cursos en línea y algunas páginas web."
 keywords: "Cálculo, Datos, Información, Ingeniería, Programación, Sistemas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+meta_author: Michael Andrés Murcia Contreras
+meta_email: mamurciac@unal.edu.co
 
 #Verificación de la página en el buscador de Google (Con Google Webmaster Tools)
 #google_verify:
@@ -32,10 +33,10 @@ color:
 
 #Ajustes de pie de página
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: El conocimiento es la mejor inversión que se puede hacer (Abraham Lincoln)
+  location: Ubicación
+  social: En la Web
+  credits: Créditos
 
 #Nombres de usuario para Redes Sociales (Hay varias disponibles como: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -56,7 +57,7 @@ address:
   - line: Bogotá D.C., Colombia
 
 #Contenido de los créditos
-credits: 'La plantilla (Freelancer de Jekyll) sobre la cual se construyó la página es Freelancer es de uso libre, y las notas de clase son tomadas a partir de apuntes de distintas referencias bibliográficas, tanto de libros como de cursos en línea y algunas páginas web. En la bibliografía de cada asignatura se ilustran las referencias citadas en detalle.'
+credits: 'La plantilla (<a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> de Jekyll) sobre la cual se construyó la página es Freelancer es de uso libre, y las notas de clase son tomadas a partir de apuntes de distintas referencias bibliográficas, tanto de libros como de cursos en línea y algunas páginas web. En la bibliografía de cada asignatura se ilustran las referencias citadas en detalle.'
 
 #Ajustes de compilación
 markdown: kramdown
